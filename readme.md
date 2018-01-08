@@ -16,7 +16,7 @@ This is a C# console application. The purpose of this program is to show possibl
 5. A welcome message with instructions will be displayed to teach you how to get the results.
 
 ## Diagram Explaining the Puzzle
-![Tower Of Hanoi](TowerOfHanoi.png?raw=true "Inheritance")
+![Tower Of Hanoi](TowerOfHanoi.gif?raw=true "Inheritance")
 
 ##### The whole concept is to move a pile of disks from one rod to another using a helper rode.
 **A few rules should are applied to the puzzle:-**
