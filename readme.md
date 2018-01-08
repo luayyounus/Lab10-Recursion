@@ -1,47 +1,45 @@
+# Tower of Hanoi - Math Puzzle
+The Tower of Hanoi is a mathematical game or puzzle. It consists of three rods and a number of disks of different sizes, which can slide onto any rod. The puzzle starts with the disks in a neat stack in ascending order of size on one rod, the smallest at the top, thus making a conical shape.
 
-![cf](http://i.imgur.com/7v5ASc8.png) Lab 10 : Deployment to Azure
-=====================================
+## Overview
+This is a C# console application. The purpose of this program is to show possible puzzle moves with Recursion.
 
-## To Submit this Assignment
-- fork this repository
-- write all of your code in a branch named `lab-#`; + `<your name>` **e.g.** `lab10-amanda`
-- push to your repository
-- submit a pull request to this repository
-- submit a link to your PR in canvas
+## Requirements to run the Application
+- [Visual Studio 2017 Community with .NET Core 2.0 SDK](https://www.microsoft.com/net/core#windowscmd)
+- [GitBash / Terminal](https://git-scm.com/downloads) or [GitHub Extension for Visual Studio](https://visualstudio.github.com)
 
-## Directions
-1. Study and research the Towers of Hanoi. Programatically solve this problem by creating
-a method that brings in (n) number of disks, and outputs the final number of moves.
+## Getting Started
+1. Clone the repository to your local machine.
+2. Cd into the application directory where the `AppName.sln` exist.
+3. Open the application using `Open/Start AppName.sln`.
+4. Once Visual Studio is opened, you can Run the application by clicking on the Play button <img src="https://github.com/luayyounus/Lab02-Unit-Testing/blob/Lab02-Luay/WarCardGame/play-button.jpg" width="16">.
+5. A welcome message with instructions will be displayed to teach you how to get the results.
 
-1. Try and use recurison
+## Diagram Explaining the Puzzle
+![Tower Of Hanoi](TowerOfHanoi.png?raw=true "Inheritance")
 
-[Towers of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
+##### The whole concept is to move a pile of disks from one rod to another using a helper rode.
+**A few rules should are applied to the puzzle:-**
+- Only one disk is allowed to move at a time.
+- Bigger disks can never be on the top of smaller ones.
+- Minimum number of disks allowed is 1.
 
-## Stretch (5pts)
-1. Do it iteratively
+To calculate the minimum number of moves required for the stack to be transferred, the following formula is used:-
+`Total Number of Moves = (2 ^ Number Of Disks) - 1` Note that `^` is the power operator.
 
-## ReadMe
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
-<br />
-Your job is to
+Considering that we have three rods/pegs, let's give every one of them a number.
+E.g.: 1-2-3 in ascending order where:
+- '1' is the starting pile that has the disks.
+- '2' is the helper rod that will be calculated every recursive call.
+- '3' is the destination rode where the final move will happen.
 
-1. tell them what it is (with context)
-2. show them what it looks like in action
-3. show them how they use it
-4. tell them any other relevant details
-<br />
+The steps taken to calculate movements on the disks are:
+1. Move (n - 1) disk from pile 1 to 3 using the helper pile 2 as an intermediate.
+2. Move nth disk from pile 1 to 3
+3. Move (n - 1) disk from 2 to 3 using the helper pile 1 as an intermediate.
+**Note**: `n` is the number of disks needs to be transferred.
 
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
+After performing the total amount of recursive calls calculated earlier, the destination pile will have all the disks ordered exactly as they were on the first rod at the beginning of the puzzle.
 
-<br /> <br /> Refer to the sample-README in the class repo for an example. 
-- [Reference](https://github.com/noffle/art-of-readme)
-  
-## Rubric
-- 7pts: Program meets all requirements described in Lab directions
-- 3pts: Code meets industry standards
-
-- **Readme.md required for submission. Missing readme document will result in a best score of 2/10**
-
-
-
-
+## Architecture
+ - C# Console Core application.
