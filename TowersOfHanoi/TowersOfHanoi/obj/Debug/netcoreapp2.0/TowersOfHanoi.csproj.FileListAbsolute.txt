@@ -1,0 +1,11 @@
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab10-Recursion\TowersOfHanoi\TowersOfHanoi\bin\Debug\netcoreapp2.0\TowersOfHanoi.deps.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab10-Recursion\TowersOfHanoi\TowersOfHanoi\bin\Debug\netcoreapp2.0\TowersOfHanoi.runtimeconfig.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab10-Recursion\TowersOfHanoi\TowersOfHanoi\bin\Debug\netcoreapp2.0\TowersOfHanoi.runtimeconfig.dev.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab10-Recursion\TowersOfHanoi\TowersOfHanoi\bin\Debug\netcoreapp2.0\TowersOfHanoi.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab10-Recursion\TowersOfHanoi\TowersOfHanoi\bin\Debug\netcoreapp2.0\TowersOfHanoi.pdb
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab10-Recursion\TowersOfHanoi\TowersOfHanoi\obj\Debug\netcoreapp2.0\TowersOfHanoi.csprojResolveAssemblyReference.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab10-Recursion\TowersOfHanoi\TowersOfHanoi\obj\Debug\netcoreapp2.0\TowersOfHanoi.csproj.CoreCompileInputs.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab10-Recursion\TowersOfHanoi\TowersOfHanoi\obj\Debug\netcoreapp2.0\TowersOfHanoi.AssemblyInfoInputs.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab10-Recursion\TowersOfHanoi\TowersOfHanoi\obj\Debug\netcoreapp2.0\TowersOfHanoi.AssemblyInfo.cs
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab10-Recursion\TowersOfHanoi\TowersOfHanoi\obj\Debug\netcoreapp2.0\TowersOfHanoi.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab10-Recursion\TowersOfHanoi\TowersOfHanoi\obj\Debug\netcoreapp2.0\TowersOfHanoi.pdb
