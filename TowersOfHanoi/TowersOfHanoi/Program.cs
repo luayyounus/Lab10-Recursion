@@ -6,8 +6,12 @@ namespace TowersOfHanoi
     {
         static void Main(string[] args)
         {
-            int numberOfDisks = 4;
+            Console.WriteLine("\n -------------- Welcome to the Tower Of Hanoi Puzzle!------------");
+            Console.WriteLine(" Enter a number between 1 and 8 to see the steps taken to Hanoi!");
 
+            int numberOfDisks = int.Parse(Console.ReadLine());
+
+            Restart:
             // The first/starting peg is represented by the number 1
             const int startPeg = 1;
             // The third/ending peg is represented by the number 3
@@ -28,7 +32,13 @@ namespace TowersOfHanoi
             }
             Console.WriteLine("Total number of Moves: " + numberOfMoves);
 
-            Console.ReadLine();
+            Console.WriteLine("\n Type a number to play again or 'E' to exit.");
+            string newInput = Console.ReadLine();
+            if (newInput.ToUpper() != "E")
+            {
+                numberOfDisks = int.Parse(newInput);
+                goto Restart;
+            }
         }
 
         public static string TowerOfHanoi(int numOfDisks, int startPeg, int endPeg)
